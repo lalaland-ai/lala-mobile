@@ -1,15 +1,5 @@
-import { Text, View } from "react-native";
+import Scene from "../components/Scene";
 
 export default function Index() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Welcome to Lala Mobile</Text>
-    </View>
-  );
+  return <Scene />;
 }
